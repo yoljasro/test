@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+.container {
+  width: 76%;
+  height: 1000px;
+  border: 1px solid black;
+  background-color: #fff;
+  position: relative;
+  left: 12%;
+}
+.container .nav {
+  width: 100%;
+  height: 150px;
+  background-color: #344c4c;
+}
+.container .nav .circle {
+  width: 130px;
+  height: 140px;
+  border: 0.2px solid gray;
+  background-color: #fff;
+  border-radius: 50%;
+  position: relative;
+  top: 5px;
+  left: 50px;
+  display: inline-block;
+}
+.container .nav .circle .circle2 {
+  width: 110px;
+  height: 120px;
+  border: 0.2px solid gray;
+  background-size: 100% 125px;
+  border-radius: 50%;
+  position: relative;
+  top: 9px;
+  left: 9px;
+}
+.container .nav .name-surname {
+  font-weight: 600;
+  color: #fff;
+  font-size: 2em;
+}
+.container .nav .textbox {
+  display: inline-block;
+  position: relative;
+  left: 100px;
+  top: -30px;
+}
+.container .nav .textbox h1 {
+  color: #fff;
+  font-size: 1.2em;
+}
+.container .nav .textbox .cv {
+  color: #fff;
+  font-size: 0.9em;
+}
+.container .section {
+  display: flex;
+}
+.container .section .left-section {
+  width: 36%;
+  height: 850px;
+}
+.container .section .left-section .box {
+  width: 100%;
+  height: 212px;
+  box-shadow: 0px 5px 5px 0px gray;
+}
+.container .section .left-section .pink {
+  background-color: #ff5050;
+  z-index: 4;
+  position: relative;
+  top: 0px;
+}
+.container .section .left-section .pink .contact {
+  font-size: 1.5em;
+  color: #fff;
+  font-weight: 600;
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+.container .section .left-section .pink .icon {
+  color: #fff;
+  font-size: 1.2em;
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+.container .section .left-section .pink .p1 {
+  display: inline;
+  position: relative;
+  top: 27px;
+  left: 40px;
+  font-size: 0.8em;
+  color: #fff;
+  font-weight: 600;
+}
+.container .section .left-section .green {
+  background-color: #33ff99;
+  z-index: 3;
+  position: relative;
+  top: 0px;
+}
+.container .section .left-section .green .language {
+  font-size: 1.5em;
+  color: #fff;
+  font-weight: 600;
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+.container .section .left-section .green .pp1 {
+  font-size: 0.9em;
+  color: #fff;
+  font-weight: 600;
+  position: relative;
+  top: 35px;
+  left: 30px;
+}
+.container .section .left-section .green .line {
+  width: 75%;
+  height: 4px;
+  border-radius: 3px;
+  background-color: #339966;
+  position: relative;
+  top: 40px;
+  left: 30px;
+}
+.container .section .left-section .green .line .line1 {
+  width: 0px;
+  height: 4px;
+  border-radius: 3px;
+  background-color: #fff;
+}
+.container .section .left-section .blue {
+  background-color: #3399ff;
+  z-index: 2;
+  position: relative;
+  top: 0px;
+}
+.container .section .left-section .blue .skills {
+  font-size: 1.5em;
+  color: #fff;
+  font-weight: 600;
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+.container .section .left-section .blue .pp1 {
+  font-size: 0.9em;
+  color: #fff;
+  font-weight: 600;
+  position: relative;
+  top: 35px;
+  left: 30px;
+}
+.container .section .left-section .blue .line {
+  width: 75%;
+  height: 4px;
+  border-radius: 3px;
+  background-color: #003399;
+  position: relative;
+  top: 40px;
+  left: 30px;
+}
+.container .section .left-section .blue .line .line1 {
+  width: 0px;
+  height: 4px;
+  border-radius: 3px;
+  background-color: #fff;
+}
+.container .section .left-section .orange {
+  background-color: #ff9933;
+  z-index: 1;
+  position: relative;
+  top: 0px;
+}
+.container .section .left-section .orange .hobbies {
+  font-size: 1.5em;
+  color: #fff;
+  font-weight: 600;
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+.container .section .left-section .orange .hobbi {
+  font-size: 0.9em;
+  position: relative;
+  left: 30px;
+  top: 55px;
+  word-wrap: break-word;
+  color: #fff;
+}
+.container .section .right-section {
+  width: 64%;
+  height: 850px;
+}
+.container .section .right-section .section1 {
+  width: 100%;
+  height: 280px;
+  display: flex;
+}
+.container .section .right-section .section1 .box {
+  width: 50%;
+  height: 280px;
+}
+.container .section .right-section .section1 .box h1 {
+  font-size: 1.35em;
+  position: relative;
+  left: 10px;
+  top: 30px;
+}
+.container .section .right-section .section1 .box p {
+  font-size: 0.9em;
+  position: relative;
+  left: 10px;
+  top: 55px;
+  word-wrap: break-word;
+}
+.container .section .right-section .section1 .box2 {
+  background-image: url(img/happy.jpg);
+  background-size: 100% 303px;
+}
+.container .section .right-section .section2 {
+  width: 100%;
+  height: 280px;
+  display: flex;
+}
+.container .section .right-section .section2 .box {
+  width: 50%;
+  height: 280px;
+}
+.container .section .right-section .section2 .box h1 {
+  font-size: 1.35em;
+  position: relative;
+  left: 10px;
+  top: 30px;
+}
+.container .section .right-section .section2 .box p {
+  font-size: 0.9em;
+  position: relative;
+  left: 10px;
+  top: 55px;
+}
+.container .section .right-section .section2 .box2 {
+  background-image: url(img/win.jpg);
+  background-size: 100% 280px;
+}
+.container .section .right-section .section3 {
+  width: 100%;
+  height: 280px;
+  display: flex;
+}
+.container .section .right-section .section3 .box {
+  width: 50%;
+  height: 280px;
+}
+.container .section .right-section .section3 .box h1 {
+  font-size: 1.35em;
+  position: relative;
+  left: 10px;
+  top: 30px;
+}
+.container .section .right-section .section3 .box p {
+  font-size: 0.9em;
+  position: relative;
+  left: 10px;
+  top: 55px;
+}
+.container .section .right-section .section3 .box2 {
+  background-image: url(img/education.jpg);
+  background-size: 100% 280px;
+}
+
+input {
+  width: 520px;
+  margin: 5px;
+  height: 30px;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  background-color: #fff;
+  border-bottom: 0.5px solid gray;
+  padding-left: 15px;
+  position: relative;
+  left: 210px;
+}/*# sourceMappingURL=style.css.map */
